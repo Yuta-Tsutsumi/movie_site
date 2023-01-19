@@ -327,11 +327,11 @@
         </mxGraphModel>
     </diagram>
     <diagram id="xZxACc3VVnF9a1R8TTGV" name="フローの書き出し">
-        <mxGraphModel dx="870" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="967" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="DxRFU3MVUrILfhnRJQAw-0"/>
                 <mxCell id="DxRFU3MVUrILfhnRJQAw-1" parent="DxRFU3MVUrILfhnRJQAw-0"/>
-                <mxCell id="DxRFU3MVUrILfhnRJQAw-4" value="&lt;font style=&quot;font-size: 24px&quot;&gt;①フォルダ構成の作成&lt;br&gt;②haederのUI作成&lt;br&gt;③非同期通信の設定（今回はTopPage.tsx）&lt;br&gt;　→axiosの導入&lt;br&gt;　→try,catch構文の使用&lt;br&gt;　→getメソットでURLを取得&lt;br&gt;④map関数で展開（今回はMovieList.tsx）&lt;br&gt;⑤MovieItemにmapで取得した要素を渡していく&lt;br&gt;⑥paginationの実装&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=46;" parent="DxRFU3MVUrILfhnRJQAw-1" vertex="1">
+                <mxCell id="DxRFU3MVUrILfhnRJQAw-4" value="&lt;font style=&quot;font-size: 24px&quot;&gt;①フォルダ構成の作成&lt;br&gt;②haederのUI作成&lt;br&gt;③非同期通信の設定（今回はTopPage.tsx）&lt;br&gt;　→axiosの導入&lt;br&gt;　→try,catch構文の使用&lt;br&gt;　→getメソットでURLを取得&lt;br&gt;④map関数で展開（今回はMovieList.tsx）&lt;br&gt;⑤MovieListにmapで取得した要素を渡していく&lt;br&gt;⑥MovieItemの実装&lt;br&gt;⑦paginationの実装&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=46;" parent="DxRFU3MVUrILfhnRJQAw-1" vertex="1">
                     <mxGeometry x="30" y="40" width="590" height="600" as="geometry"/>
                 </mxCell>
             </root>
