@@ -3,7 +3,8 @@ import { MovieItemType } from "../../types/movieTypes";
 import styles from "./MovieItem.module.scss";
 
 type Props = {
-  // 映画情報の型の定義（id、映画のポスター画像、映画タイトル、映画の概要説明）
+  /* オブジェクト型
+     映画情報の型の定義（id、映画のポスター画像、映画タイトル、映画の概要説明）*/
   item: MovieItemType;
 };
 
