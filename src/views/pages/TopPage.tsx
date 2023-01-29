@@ -9,6 +9,7 @@ const TopPage: React.FC = () => {
   const [movieList, setMovieList] = useState<MovieListType>([
     { id: 0, poster_path: "", title: "", overview: "" },
   ]);
+
   // APIキーを「ApiKey」に格納
   const ApiKey = process.env.REACT_APP_MOVIE_APIKEY;
   //非同期通信を行う際は「async」が必要になる
@@ -28,11 +29,12 @@ const TopPage: React.FC = () => {
         const movies = response.data.results;
         // ↑で定義したmoviseを使用し映画の情報の一覧を配列で取得する。
         setMovieList(movies);
+        // console.log(movies);
       } catch {}
     };
 
-    // 第2引数で発火のタイミングを設定
     fetchTrendMovies();
+    // 第2引数で発火のタイミングを設定
   }, [ApiKey]);
 
   return (
