@@ -5,7 +5,9 @@
   .posterBox {
     width: 300px;
     .posterItems {
-      .title {
+      position: relative;
+      height: 100vh;
+      .movieTitle {
         color: #c3d130;
       }
       .poster_path {
@@ -20,3 +22,16 @@
     }
   }
 }
+
+//    {
+//     font-weight: bold;
+//     font-size: 20px;
+//     color: #fff;
+//     position: absolute;
+//   }
+//    {
+//     font-weight: bold;
+//     font-size: 20px;
+//     position: absolute;
+//   }
+// }

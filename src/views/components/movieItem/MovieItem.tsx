@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { MovieItemType } from "../../types/movieTypes";
 import styles from "./MovieItem.module.scss";
 
@@ -9,19 +9,29 @@ type Props = {
 };
 
 const MovieItem: React.FC<Props> = ({ item }) => {
+  const [overview, setOverview] = useState("");
+  const [onMouse, setOnMouse] = useState(false);
+  const onMouseOverEvent = () => {
+    setOnMouse(true);
+  };
+  const onMouseLeaveEvent = () => {
+    setOnMouse(false);
+  };
   return (
     <div className={styles.root}>
       <div className={styles.posterBox}>
         <div className={styles.posterItems}>
-          <div className={styles.title}>{item.title}</div>
           <div className={styles.poster_path}>
             <img
               className={styles.posterImage}
               src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
               alt="movie poster"
+              onMouseOver={onMouseOverEvent}
+              onMouseLeave={onMouseLeaveEvent}
             />
+            {onMouse && <div className={styles.movieTitle}>{item.title}</div>}
+            {onMouse && <div className={styles.overview}>{item.overview}</div>}
           </div>
-          <div className={styles.overview}>{item.overview}</div>
         </div>
       </div>
     </div>
