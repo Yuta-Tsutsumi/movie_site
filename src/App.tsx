@@ -1,5 +1,5 @@
 import React from "react";
-import TopPage from "./views/pages/TopPage";
+import TopPage from "./views/pages/topPage/TopPage";
 
 const App: React.FC = () => {
   return (
