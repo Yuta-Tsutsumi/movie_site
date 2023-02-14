@@ -20,9 +20,17 @@ const MovieList: React.FC<Props> = (props) => {
   // movieList配列（20個のデータ）の情報を1つ1つ展開している
   return (
     <div className={styles.root}>
-      {movieList.map((movie) => {
-        return <MovieItem item={movie} key={movie.id} />;
-      })}
+      <div className={styles.movieTitle}>
+        Powered by{" "}
+        <a className={styles.linkTitle} href="https://www.themoviedb.org/">
+          The Movie Database
+        </a>
+      </div>
+      <div className={styles.movieList}>
+        {movieList.map((movie) => {
+          return <MovieItem item={movie} key={movie.id} />;
+        })}
+      </div>
     </div>
   );
 };
