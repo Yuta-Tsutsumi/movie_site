@@ -8,11 +8,16 @@
 
 <h1>使用技術</h1>
 <a href="https://ja.legacy.reactjs.org/">React</a>
+
 <a href="https://www.typescriptlang.org/">TypeScript</a>
+
 <a href="https://html.spec.whatwg.org/multipage/">HTML</a>
+
 <a href="https://sass-lang.com/documentation/">Sass</a>
+
 <p>sass(scss)</p>
 <a href="https://docs.amplify.aws/start/q/integration/react-native/?sc_icampaign=react-native-start&sc_ichannel=docs-home">AWS Amplify</a>
+
 <p>Web API(<a href="https://www.themoviedb.org/">URL</a>)</p>
 
 <!-- <h1>作成にあたり苦労した点・又どの様に乗り越えたか</h1>
