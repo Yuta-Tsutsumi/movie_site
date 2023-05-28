@@ -8,7 +8,7 @@
 
 <h1>使用技術</h1>
 
-<a href="https://ja.legacy.reactjs.org/">React</a>
+<a color="#FF0000" href="https://ja.legacy.reactjs.org/">React</a>
 
 <a href="https://www.typescriptlang.org/">TypeScript</a>
 
