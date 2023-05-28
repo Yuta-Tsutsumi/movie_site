@@ -1,4 +1,4 @@
-<h1>ポートフォリオサイト</h1>
+<h1>映画サイト</h1>
 
 <img width="500" alt="movieSite 339422e5" src="movie.png">
 <a href ="https://main.d2579k8bjr1zzf.amplifyapp.com/">サイトのURL</a>
