@@ -7,11 +7,12 @@
 <a href ="https://qiita.com/Yuta-Tsutsumi/items/2075e20645345b9c85c3">Qiita</a>
 
 <h1>使用技術</h1>
-<p>React</p>
-<p>Typescript</p>
-<p>HTML</p>
+<a href="https://ja.legacy.reactjs.org/">React</a>
+<a href="https://www.typescriptlang.org/">TypeScript</a>
+<a href="https://html.spec.whatwg.org/multipage/">HTML</a>
+<a href="https://sass-lang.com/documentation/">Sass</a>
 <p>sass(scss)</p>
-<p>AWS Amplify</p>
+<a href="https://docs.amplify.aws/start/q/integration/react-native/?sc_icampaign=react-native-start&sc_ichannel=docs-home">AWS Amplify</a>
 <p>Web API(<a href="https://www.themoviedb.org/">URL</a>)</p>
 
 <!-- <h1>作成にあたり苦労した点・又どの様に乗り越えたか</h1>
