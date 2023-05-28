@@ -12,7 +12,7 @@
 <p>HTML</p>
 <p>sass(scss)</p>
 <p>AWS Amplify</p>
-<p>Web API(<a> https://www.themoviedb.org/ </a>)</p>
+<p>Web API</p><a> https://www.themoviedb.org/ </a>
 
 <!-- <h1>作成にあたり苦労した点・又どの様に乗り越えたか</h1>
 <p>今回ポートフォリオサイトに取り掛かるなかで、お問い合わせフォーム作成に一番苦労しました。
