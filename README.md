@@ -2,7 +2,7 @@
 
 <img width="500" alt="映画サイト" src="https://github.com/Yuta-Tsutsumi/portfolio/assets/64819709/7c7abe50-0e74-4176-b0fa-4a98a03bb396">
 
-<a href ="https://main.d2579k8bjr1zzf.amplifyapp.com/">サイト URL</a>
+<a href ="https://main.d2waztlnfjnb79.amplifyapp.com/">サイト URL</a>
 
 <a href ="https://qiita.com/Yuta-Tsutsumi/items/2075e20645345b9c85c3">Qiita</a>
 
